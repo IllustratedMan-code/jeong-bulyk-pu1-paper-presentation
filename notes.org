@@ -1,0 +1,45 @@
+* Objective
+
+- Determine the functional cause of a trait, given GWAS variant-traits,
+  and PU.1 ChIP-seq + genotype data
+- Identify mechanism behind non-coding variants' effect on phenotype
+- Which traits are caused by altered PU.1 binding motifs?
+
+
+* Definitions
+
+** QTL
+- Quantitative trait loci
+- region of the genome where variation is associate
+
+** bQTLS
+- Binding Quantitative trait loci
+- An attempt to link TF occupancy signal (ChIP-seq) with a genetic variant
+- I.e. is the TF more or less likely to bind to a region of genetic variation
+
+
+** Colocalization Analysis
+- Tests hypothesis that genetic signal is shared between two "traits", or
+  quantifiable measurements, such as GWAS trait and ChIP-seq signal (TF binding)
+
+
+** Linkage disequilibrium
+- traits/genes are inherited together, contrary to independence assumption
+
+
+** bQTL effect size
+- Likely std-err from QTL tools
+  https://qtltools.github.io/qtltools/pages/QTLtools-cis.1.html
+- Slope of the regression used to fit alleles (genotype) to ChIP-seq signal (phenotype residuals)
+
+** gkm-SVM
+- Gapped k-mer support vector machine
+- Learns overrepresented gapped k-mers in PU.1 bound sequences
+- Used to determine how genetic variants will effect PU.1 motif binding
+- gkm-SVM scores for motif altering variants are correlated with bQTL effect sizes for PU.1
+- In essence, the gkm-SVM is a model that can predict the change in binding of PU.1 based on
+  the variant (change in genome)
+
+** Motif Altering Variant
+- A genetic variant (SNP) that is within a PU.1 binding site
+- Motif altering variants bQTLs are concentrated at the center of PU.1 binding peaks
