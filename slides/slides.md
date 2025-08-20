@@ -24,5 +24,30 @@ layout: cover
 
 # Contents
 
+- Objective
 - What did they do?
 - How did they do it?
+
+---
+
+```yaml
+src: ./pages/objective.md
+```
+
+---
+
+```yaml
+src: ./pages/methods.md
+```
+
+---
+
+```yaml
+src: ./pages/results.md
+```
+
+---
+
+```yaml
+src: ./pages/discussion.md
+```

@@ -13,15 +13,22 @@ const props = defineProps({
     type: String,
     default: 'contain',
   },
+  imageBias: {
+    type: String,
+    default: "1",
+  },
 })
 
-const i = computed(() => resolveAssetUrl(props.image)) 
+const resolvedImage = computed(() => resolveAssetUrl(props.image))
+const imageBias = props.imageBias
 </script>
 
 <template>
-  <div class="grid grid-cols-2 w-full h-full auto-rows-fr">
+  <div class="grid grid-cols-2 w-full h-full auto-rows-fr"
+  :style="`grid-template-columns: ${props.imageBias}fr 1fr`"
+  >
     <div class=" p-4 w-full h-full flex flex-col items-center justify-center">
-	 <img :src="i" class="max-w-full max-h-full min-h-0  -z-10" />
+	 <img :src="resolvedImage" class="max-w-full max-h-full min-h-0  -z-10" />
  	 <div class=" text-sm text-left opacity-70">
               <slot name="caption" />
       	 </div>
