@@ -39,6 +39,18 @@ image: /figures/2cd.jpg
 
 ```yaml
 layout: image-right
+image: /figures/3a.jpg
+```
+
+# White blood cell traits
+
+- White blood cell traits are highlighted in yellow
+- White blood cell GWAS traits are more common among blood cell traits
+
+---
+
+```yaml
+layout: image-right
 image: /figures/4b.jpg
 ```
 
@@ -84,3 +96,26 @@ primary eQTL
 <!-- When we look at B cells, they don't exhibit rs2028854 (lcl primary eQTL) as a primary eQTL -->
 
 ---
+
+```yaml
+layout: two-cols
+```
+
+# MPRA verification of 2 identified variants
+
+- rs5827412 shows reduced reporter activity (negative allelic skew)
+- rs3808619 increased reporter activity (positive allelic skew)
+
+::right::
+
+<img src="/figures/6c.jpg" />
+<img src="/figures/7f.jpg" />
+
+---
+
+```yaml
+layout: image-left
+image: /figures/6ab.jpg
+```
+
+# Lowered PU.1 binding corresponds to lower monocyte percentage

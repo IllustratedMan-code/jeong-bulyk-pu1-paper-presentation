@@ -25,8 +25,9 @@ layout: cover
 # Contents
 
 - Objective
-- What did they do?
-- How did they do it?
+- Methods
+- Results
+- Discussion
 
 ---
 

@@ -103,6 +103,8 @@ image: /figures/1b.jpg
 <v-drag-arrow v-click color="red" pos="516,165,-99,26"/>
 <v-drag-arrow v-click color="blue" pos="490,406,-110,-83"/>
 
+<!-- Top letter is reference allele, bottom letter is alternative allele -->
+
 ---
 
 ```yaml
