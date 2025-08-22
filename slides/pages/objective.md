@@ -6,8 +6,10 @@ layout: cover
 
 <v-clicks>
 
-- Casual variants and mechanisms for noncoding variants are hard to identify
-- Need some way of assigning a variant to a trait and also a functional phenotype
+- Some genetic variants can be associated with traits (i.e. GWAS)
+- Understanding which variants "cause" the trait is difficult
+- Determining the mechanism by which a variant causes a trait is difficult
+- Need some way of associating a variant to a trait and also a functional phenotype (i.e. protein binding)
 
  </v-clicks>
  

@@ -51,14 +51,16 @@ say that they directly show a causual relationship, but claim that it is more li
 ---
 
 ```yaml
-
+layout: image-right
+image: /pu1-structure.png
 ```
 
 # A little about PU.1
 
-- A transcription factor important to myeloid and B-lymphoid cell development
+- A transcription factor important to hematopoiesis
 - SPI1 is the gene name
 - Part of the ETS family of transcription factors
+- A pioneer transcription factor
 
 ---
 
@@ -120,3 +122,5 @@ image: /figures/2b.jpg
 - Removes LD bias
 
 </v-clicks>
+
+<!-- this paper intersects 2 different models (increasing the number of assumptions) -->
