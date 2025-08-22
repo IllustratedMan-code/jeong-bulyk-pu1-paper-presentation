@@ -13,6 +13,8 @@ image: /figures/2a.jpg
 
 # bQTLs
 
+<v-clicks>
+
 - 49 Individuals of European ancestry
   - Each individual has ChIP-seq dataset from LCL
   - Each individual has genotype data available from 1000 Genomes Project
@@ -20,6 +22,8 @@ image: /figures/2a.jpg
 - 250 Null variant sets generated for 1292 bQTL lead variants (SNPsnap)
 - bQTLs are more likely to be associated with blood cell traits compared to
   null variant sets
+
+</v-clicks>
 
 ---
 
@@ -53,7 +57,8 @@ image: /figures/3a.jpg
 # White blood cell traits
 
 - White blood cell traits are highlighted in yellow
-- White blood cell GWAS traits are more common among blood cell traits
+- White blood cell GWAS traits are more common among blood cell traits colocalized
+  with bQTLs
 
 ---
 

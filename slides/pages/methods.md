@@ -43,6 +43,14 @@ block-beta
 
 ```
 
+<v-drag-arrow v-click color="red" pos="519,397,-158,21"/>
+
+<v-drag v-click="+0" pos="516,376,78,40"  >
+<div style="font-size: 0.5em; border: 1px solid red; text-align: center; padding: 0.1em">
+Alternative allele
+</div>
+</v-drag>
+
 <!--
 The flowchart on the right shows their protocol. They are very careful not to explicity
 say that they directly show a causual relationship, but claim that it is more likely for the selected variants to be casual.
@@ -57,10 +65,14 @@ image: /pu1-structure.png
 
 # A little about PU.1
 
+<v-clicks>
+
 - A transcription factor important to hematopoiesis
 - SPI1 is the gene name
 - Part of the ETS family of transcription factors
 - A pioneer transcription factor
+
+</v-clicks>
 
 ---
 
